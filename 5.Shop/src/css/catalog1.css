@@ -1,0 +1,404 @@
+
+
+.catalaug{
+    width:48vw;
+    height: auto;
+    box-sizing: border-box;
+    display:flexbox;
+    place-items: center;
+    justify-content: center;
+    float: left; 
+    margin-top:1vh ;
+}
+
+.upper_part{
+    height: 10vh;
+    background: blue;
+}
+
+.catalaug_name{
+    float: left;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px rgb(216, 213, 213);
+}
+
+.view_all{
+    float: right;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    background: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgb(88, 128, 189);
+    border:1px solid rgb(101, 201, 247);
+}
+
+#arrow{
+    font-size: 1.2rem ;
+    text-shadow: 2px 2px 2px rgb(243, 235, 235);
+    margin-top:2%;
+}
+
+.lower_part_1{
+    height: 65vh;
+    background: azure;
+    border: 0.5px solid rgb(141, 148, 148);
+    box-shadow: 2px 2px 4px rgb(223, 219, 219);
+}
+
+.left_1{
+    float: left;
+    border-right: 0.5px solid rgb(141, 148, 148);
+    width: 49%;
+    height:65vh;
+    text-align: center;
+}
+
+.image_left_1{
+    width: 80%;
+    height:19vh;
+   
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 4px rgb(53, 52, 52);
+}
+
+.name_left_1{
+    margin-top:1vh;
+    width: 90%;
+    height: 3vh;
+    padding:2%;
+    font-size: 1.2rem;
+    background: white;
+    text-shadow: 1px 1px 1px rgb(216, 213, 213);
+}
+
+.price_left_1{
+    margin-top:1vh;
+    width: 90%;
+    height: 3vh;
+    padding:2%;
+    margin-bottom: 2%;
+    font-size: 0.8rem;
+    background: white;
+}
+
+.right_1{
+    float: right;
+    width: 49%;
+    height:65vh;
+}
+
+.side_view_1{
+    width: 100%;
+    height: 48%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+
+.line_1{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.image_right_1{
+    width: 80%;
+    height:19vh;
+   
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 4px rgb(53, 52, 52);
+ }
+.image_left_1:hover,.image_right_1:hover,.image_left:hover,.image_right:hover{
+    box-shadow: none;
+}
+ .name_right_1{
+    margin-top:1vh;
+    width: 90%;
+    height: 3vh;
+    padding:2%;
+    font-size: 1.2rem;
+    background: white;
+    text-shadow: 1px 1px 1px rgb(216, 213, 213);
+ }
+
+ .price_right_1{
+    margin-top:1vh;
+    width: 90%;
+    height: 3vh;
+    padding:2%;
+    margin-bottom: 2%;
+    font-size: 0.8rem;
+    background: white;
+ }
+
+
+
+ @media screen and (max-width:249.9px)and (min-width:100px){
+
+
+    .catalaug{
+        width:98.5vw;
+    }
+    
+    .upper_part{
+        height: 5vh;
+    }
+    
+    .catalaug_name{
+        margin-left: 5vw;
+        margin-top: 1.1vh;
+        font-size: 1rem;
+    }
+    
+    .view_all{
+        margin-right: 5vw;
+        margin-top: 1.1vh;
+        font-size: 0.8rem;
+    }
+    
+    #arrow{
+        font-size: 0.8rem ;
+    }
+    
+    .lower_part_1{
+        height: 51vh;
+    }
+    
+    .left_1{
+        width: 49%;
+        height:50vh;
+    }
+    
+    .image_left_1{
+        width: 85%;
+        height:15vh;
+    }
+    
+    .name_left_1{
+        width: 90%;
+        height: 2vh;
+        font-size: 0.8rem;
+    }
+    
+    .price_left_1{
+        width: 90%;
+        height: 2vh;
+        font-size: 0.8rem;
+    }
+    
+    .right_1{
+        width: 49%;
+        height:48.5vh;
+        margin-top: -1.5%;
+    }
+    
+    .side_view_1{
+        width: 100%;
+        height: 48%;
+        margin-top: 0%;
+        
+    }
+
+    .image_right_1{
+        width: 85%;
+        height:15vh;
+     }
+    
+     .name_right_1{
+        width: 90%;
+        height: 2vh;
+        font-size: 0.8rem;
+     }
+    
+     .price_right_1{
+        width: 90%;
+        height: 2vh;
+        font-size: 0.8rem;
+        
+     }
+    
+
+ }
+
+
+
+ @media screen and (max-width:449.9px)and (min-width:250px){
+
+
+    .catalaug{
+        width:98.5vw;
+    }
+    
+    .upper_part{
+        height: 7vh;
+    }
+    
+    .catalaug_name{
+        margin-left: 5vw;
+        margin-top: 1.5vh;
+        font-size: 1.3rem;
+    }
+    
+    .view_all{
+        margin-right: 5vw;
+        margin-top: 1.5vh;
+        font-size: 1rem;
+    }
+    
+    #arrow{
+        font-size: 1.2rem ;
+    }
+    
+    .lower_part_1{
+        height: 61vh;
+    }
+    
+    .left_1{
+        width: 49%;
+        height:60vh;
+    }
+    
+    .image_left_1{
+        width: 85%;
+        height:20vh;
+    }
+    
+    .name_left_1{
+        width: 90%;
+        height: 2.5vh;
+        font-size: 1rem;
+    }
+    
+    .price_left_1{
+        width: 90%;
+        height: 2.5vh;
+        font-size: 0.8rem;
+    }
+    
+    .right_1{
+        width: 49%;
+        height:58.5vh;
+     
+    }
+    
+    .side_view_1{
+        width: 100%;
+        height: 48%;
+        
+    }
+
+    .image_right_1{
+        width: 85%;
+        height:20vh;
+     }
+    
+     .name_right_1{
+        width: 90%;
+        height: 2.5vh;
+        font-size: 1rem;
+     }
+    
+     .price_right_1{
+        width: 90%;
+        height: 2.5vh;
+        font-size: 0.8rem;
+        
+     }
+    
+
+ }
+
+
+
+ @media screen and (max-width:799px)and (min-width:450px){
+
+
+    .catalaug{
+        width:98.5vw;
+    }
+   
+    .catalaug_name{
+        font-size: 1.5rem;
+    }
+    
+    .view_all{
+        font-size: 1rem;
+    }
+    
+    .lower_part_1{
+        height: 79vh;
+    }
+    
+    .left_1{
+        width: 49%;
+        height:78vh;
+    }
+    
+    .image_left_1{
+        width: 85%;
+        height:27vh;
+    }
+    
+    .name_left_1{
+        width: 90%;
+        height: 4vh;
+        font-size: 1.2rem;
+    }
+    
+    .price_left_1{
+        width: 90%;
+        height: 4vh;
+        font-size: 0.8rem;
+    }
+    
+    .right_1{
+        width: 49%;
+        height:78vh;
+    }
+    
+    .image_right_1{
+        width: 85%;
+        height:27vh;
+     }
+    
+     .name_right_1{
+        width: 90%;
+        height: 4vh;
+        font-size: 1.2rem;
+     }
+    
+     .price_right_1{
+        width: 90%;
+        height: 4vh;
+        font-size: 0.8rem;
+        
+     }
+    
+
+ }
+
+
+
+
+ @media screen and (max-width:1199px)and (min-width:800px){
+
+
+    .catalaug{
+        width:47.5vw;
+    }
+    
+ }
+
+
+ @media screen and (min-width:1200px){
+
+
+    .catalaug{
+        width:48vw;
+    }
+    
+ }

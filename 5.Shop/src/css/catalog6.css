@@ -1,0 +1,207 @@
+
+.u_main{
+    width:99vw;
+    height: 34vh;
+    background-color: rgb(243, 252, 252);
+    display: flex;
+    justify-content: center;
+    box-shadow:  3px 3px 4px  rgb(131, 130, 130);
+    margin-top: 1vh;
+}
+.u_box{
+    width:31%;
+    height:97%;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.u_box1{
+    width: 99%;
+    height:99% ;
+    border: white solid 2px;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    box-shadow:  2px 2px 3px  rgb(131, 130, 130);
+    white-space: normal;
+}
+.u_image{
+    width:100% ;
+    height:20vh ;
+    border-radius: 15px;
+    background-size: 100% 100%;
+}
+.u_offer{
+    width:90% ;
+    height:3vh ;
+    margin-top: 0.4vh;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    color: rgb(204, 0, 255);
+    background-color: white;
+    text-shadow:0.5px  0.5px 0.5px  rgb(236, 72, 108);
+}
+.u_name{
+    width:90% ;
+    height:3vh ;
+    margin-top: 0.4vh;
+    border-radius: 15px;
+    font-size: 2.8rem;
+    background-color: white;
+    text-shadow: 0.5px 0.5px  0.5px  rgb(35, 36, 41);
+}
+
+
+.u_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:419.9px)and (min-width:220px){
+    .u_main{
+        height: 31vh;
+    }
+    .u_box{
+        width:31%;
+        height:97%;
+    }
+    .u_image{
+        height:19vh ;
+    }
+    .u_offer{
+        height:2.5vh ;
+        margin-top: 0.2vh;
+        font-size: 0.8rem;
+    }
+    .u_info{
+        height:2.5vh ;
+        margin-top: 0.2vh;
+        font-size: 0.6rem;
+    }
+    .u_name{
+        height:2.5vh ;
+        margin-top: 0.2vh;
+        font-size: 0.8rem;
+    }
+    
+} 
+
+
+@media screen and (max-width:559.9px)and (min-width:420px){
+    .u_main{
+        height: 35vh;
+    }
+    .u_box{
+        width:31%;
+        height:97%;
+    }
+    .u_image{
+        height:22vh ;
+    }
+    .u_offer{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1rem;
+    }
+    .u_info{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 0.8rem;
+    }
+    .u_name{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.05rem;
+    }
+    
+} 
+
+
+@media screen and (max-width:719.9px)and (min-width:560px){
+    .u_main{
+        height: 38vh;
+    }
+    .u_box{
+        width:31.5%;
+        height:97%;
+    }
+    .u_image{
+        height:25vh ;
+    }
+    .u_offer{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.2rem;
+    }
+    .u_info{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1rem;
+    }
+    .u_name{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.3rem;
+    }
+    
+} 
+
+@media screen and (max-width:1199.9px)and (min-width:720px){
+    .u_main{
+        height: 42vh;
+    }
+    .u_box{
+        width:32%;
+        height:97%;
+    }
+    .u_image{
+        height:28vh ;
+    }
+    .u_offer{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.3rem;
+    }
+    .u_info{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.1rem;
+    }
+    .u_name{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.4rem;
+    }
+    
+} 
+
+@media screen and  (min-width:1200px){
+
+    .u_main{
+        height: 47vh;
+    }
+    .u_box{
+        width:32%;
+        height:97%;
+    }
+    .u_image{
+        height:32vh ;
+    }
+    .u_offer{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.5rem;
+    }
+    .u_info{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.2rem;
+    }
+    .u_name{
+        height:3vh ;
+        margin-top: 0.2vh;
+        font-size: 1.6rem;
+    }
+    
+}

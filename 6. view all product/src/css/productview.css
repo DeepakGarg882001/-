@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    padding: 0 auto;
+}
+.box{
+    width: 32.7vw;
+    height: 30vh;
+    border: 2px solid rgb(246, 247, 247);
+    background: azure;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px rgb(87, 86, 86);
+    float: left;
+    margin:0.5vh 0.1vw;
+    word-wrap: break-word;
+}
+.sub{
+    display:flex;
+}
+.box_1{
+    width: 14.8vw;
+    height: 29.8vh;
+    background-size: 100% 100%;
+    /* background-image: url("tomato.jpg"); */
+    float: left;
+}
+.productview_image{
+    width: 100%;
+    height: 100%;
+}
+.box_2{
+    width:18.1vw;
+    height: 29.8vh;
+    float: right;
+}
+
+.name{
+ width: 90%;
+ height: auto;
+ background:white;
+ margin-top: 0.2vh;
+ margin-left: 2%;
+ text-align:center;
+ font-size: 1.3rem;
+ text-shadow: 0.5px 0.5px 1px rgb(136, 135, 135);
+}
+.other_info{
+    width:90% ;
+    height:15vh ;
+    margin-top: 2vh;
+    margin-left: 2%;
+    font-size:1rem ;
+}
+.rating{
+    width: 18%;
+    height: auto;
+    background:green;
+    color: ivory;
+    border-radius: 2px;
+    text-align:center;
+    box-shadow: 2px 2px 2px rgb(65, 65, 65);
+    margin-top: 0.2vh;
+    margin-left: 2%;
+    font-size: 1.1rem;
+    text-shadow: 0.5px 0.5px 1px rgb(110, 110, 110);
+}
+#star{
+    color:rgb(218, 253, 226);
+    font-size: x-small;
+    text-shadow:1px 1px 2px black ;
+}
+
+.price{
+    width: 36%;
+    height: auto;
+    background: white;
+    margin-top:1.3vh;
+    margin-left: 2%;
+    text-align:right;
+    font-size: 1rem;
+    text-shadow: 0.5px 0.5px 0.5px rgb(110, 110, 110);
+    float: left;
+}
+
+.discount{
+    color: rgb(5, 97, 5);
+    width: 50%;
+    height: auto;
+    background:white;
+    margin-top:1.3vh;
+    margin-right: 4%;
+    font-size: 1rem;
+    text-shadow: 0.5px 0.5px 0.5px rgb(110, 110, 110);
+    float: right;
+}
+s{
+    color: rgb(88, 92, 94);
+    text-decoration-thickness: 1.55px;
+}
+
+
+@media screen and (min-width:1200px){
+
+    .box{
+        width: 32.7vw;
+        height: 30vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 14.8vw;
+        height: 29.6vh;
+    }
+    
+    .box_2{
+        width:18.1vw;
+        height: 29.8vh;
+    }
+    
+    .name{
+     font-size: 1.3rem;
+    }
+    .other_info{
+        height:15vh ;
+        font-size:1rem ;
+    }
+    .rating{
+        width: 18%;
+        font-size: 1.1rem;
+    }
+    
+    .price{
+        width: 36%;
+        font-size: 1rem;
+    }
+    
+    .discount{
+        width: 50%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1199.9px) and (min-width:950px){
+    .box{
+        width: 32.5vw;
+        height: 28vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 14.8vw;
+        height: 27.6vh;
+    }
+    
+    .box_2{
+        width:18.1vw;
+        height: 27.8vh;
+    }
+    
+    .name{
+     font-size: 1.2rem;
+    }
+    .other_info{
+        height:12vh ;
+        font-size:0.8rem ;
+    }
+    .rating{
+        width: 24%;
+        font-size: 1rem;
+    }
+    
+    .price{
+        width: 36%;
+        font-size: 1rem;
+    }
+    
+    .discount{
+        width: 55%;
+        font-size: 1rem;
+    }
+} 
+
+@media screen and (max-width:949.9px) and (min-width:680px){
+    .box{
+        width: 48vw;
+        height: 28vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 21.6vw;
+        height: 27.6vh;
+    }
+    
+    .box_2{
+        width:26.4vw;
+        height: 27.8vh;
+    }
+    
+    .name{
+     font-size: 1.2rem;
+    }
+    .other_info{
+        height:12vh ;
+        font-size:0.8rem ;
+    }
+    .rating{
+        width: 24%;
+        font-size: 1rem;
+    }
+    
+    .price{
+        width: 36%;
+        font-size: 1rem;
+    }
+    
+    .discount{
+        width: 55%;
+        font-size: 1rem;
+    }
+} 
+
+
+@media screen and (max-width:679.9px) and (min-width:560px){
+    .box{
+        width: 48vw;
+        height: 23vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 21.6vw;
+        height: 22.6vh;
+    }
+    
+    .box_2{
+        width:26.4vw;
+        height: 22.8vh;
+    }
+    
+    .name{
+     font-size: 1.1rem;
+    }
+    .other_info{
+        height:9vh ;
+        font-size:0.8rem ;
+    }
+    .rating{
+        width: 28%;
+        font-size: 0.9rem;
+    }
+    
+    .price{
+        width: 36%;
+        font-size: 0.8rem;
+    }
+    
+    .discount{
+        width: 55%;
+        font-size: 0.8rem;
+    }
+} 
+
+
+@media screen and (max-width:559.9px) and (min-width:310px){
+    .box{
+        width: 98vw;
+        height: 28vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 44vw;
+        height: 27.6vh;
+    }
+    
+    .box_2{
+        width:54vw;
+        height: 27.8vh;
+    }
+    
+    .name{
+     font-size: 1.1rem;
+    }
+    .other_info{
+        height:11vh ;
+        font-size:0.85rem ;
+    }
+    .rating{
+        width: 24%;
+        font-size: 1rem;
+        margin-bottom: 1.5vh;
+    }
+    
+    .price{
+        width: 36%;
+        font-size: 0.8rem;
+    }
+    
+    .discount{
+        width: 52%;
+        font-size: 0.8rem;
+    }
+} 
+
+@media screen and (max-width:309.9px) and (min-width:140px){
+    .box{
+        width: 98vw;
+        height: 26vh;
+        margin:0.5vh 0.1vw;
+    }
+    .box_1{
+        width: 44vw;
+        height: 25.6vh;
+    }
+    
+    .box_2{
+        width:54vw;
+        height: 25.8vh;
+    }
+    
+    .name{
+     font-size: 1.1rem;
+    }
+    .other_info{
+        height:9vh ;
+        font-size:0.75rem ;
+    }
+    .rating{
+        width: 30%;
+        font-size: 0.9rem;
+        margin-bottom: 0.5vh;
+    }
+    
+    .price{
+        width: 56%;
+        font-size: 0.8rem;
+       
+    }
+    
+    .discount{
+        width: 65%;
+        font-size: 0.8rem;
+    }
+} 
+
+
